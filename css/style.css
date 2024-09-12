@@ -1,0 +1,89 @@
+.show-text {
+  width: 500px;
+  height: 60px;
+  background: red;
+  display: block;
+  margin: auto;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.btn {
+  display: block;
+  padding: 12px 23px;
+  color: black;
+  background: lightgreen;
+  text-transform: capitalize;
+  text-align: center;
+  margin: auto;
+  border: none;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background: green;
+  color: white;
+  font-size: 15px;
+}
+
+/* this is simple shopping cart */
+
+.inp {
+  width: 80%;
+  height: 50px;
+  margin: 20px auto;
+  display: block;
+  border: 3px solid pink;
+  background-color: black;
+  color: pink;
+  padding: 15px;
+  font-size: 25px;
+  overflow: scroll;
+}
+
+.inp:focus{
+  border: 3px solid pink;
+}
+
+.button, .btn-sum, .clear{
+  display: inline-block;
+  padding: 12px 28px;
+  margin: 10px;
+  background: #222;
+  color: white;
+  font-size: 18px;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.clear{
+  background: #ff0000;
+  color: white;
+  transition: 0.4s;
+  display: none;
+}
+
+.clear:hover{
+  background: #b40707;
+}
+
+
+.btn-sum{
+  display: none;
+  visibility: hidden;
+  background: pink;
+  color: black;
+  margin: 30px auto;
+}
+
+.btn-div {
+  text-align: center;
+}
